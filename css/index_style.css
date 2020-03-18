@@ -1,0 +1,92 @@
+body
+{
+}
+.navhead h1
+{
+    font-family: 'Tajawal', sans-serif;
+    font-size: 5rem;
+}
+.navhead
+{
+    background-color: bisque;
+}
+.total
+{
+    background-color: #ABBEBA;
+    
+}
+.total p
+{
+    font-weight: 600;
+    font-size: 3rem;
+}
+.countries
+{
+    background-color:#A4947D ;
+    overflow: auto;
+    max-height: 500px;
+}
+.Egypt
+{
+    background-color:#AEAB9A ;    max-height: 500px;
+
+    overflow: hidden;
+
+}
+.thred
+{
+    height: 53.5vh;
+}
+.itemCountrie h4
+{
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+}
+.itemCountrie h4
+{
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+.itemCountrie 
+{
+    font-weight: 900;
+    font-size: 1.3rem;
+    font-family: 'Tajawal', sans-serif;
+
+}
+
+
+#style-3::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #A4947D;
+}
+
+#style-3::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #A4947D;
+}
+
+#style-3::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
+
+
+.Egypt h3
+{
+    font-weight: 900;
+    font-size: 3rem;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.Egypt p
+{
+    font-weight: 900;
+    font-size: 1.1rem;
+    font-family: 'Tajawal', sans-serif;
+}
