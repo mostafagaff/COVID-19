@@ -78,7 +78,7 @@ function displayCountries() {
             <p class="p-0 m-0">`+ allCountries[index].todayCases + ` : حالات اليوم</p>
           </div>
           <div class="col-md-6">
-            <p class="p-0 m-0">`+ allCountries[index].deaths + ` : محموع الوفيات</p>
+            <p class="p-0 m-0">`+ allCountries[index].deaths + ` : مجموع الوفيات</p>
           </div>
           <div class="col-md-6">
             <p class="p-0 m-0">`+ allCountries[index].todayDeaths + ` : وفيات اليوم</p>
@@ -125,7 +125,7 @@ function displayEgypt() {
 
   </div>
   <div class="col-md-12">
-    <p class=" m-1">محموع الوفيات</p>
+    <p class=" m-1">مجموع الوفيات</p>
     <p>`+egyptData.deaths+`</p>
 
   </div>
