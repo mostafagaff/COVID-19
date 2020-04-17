@@ -54,7 +54,7 @@ var allCountries = [];
 var httpreqForCountries = new XMLHttpRequest();
 getdataCountries();
 function getdataCountries() {
-    httpreqForCountries.open("GET", "https://corona.lmao.ninja/countries");
+    httpreqForCountries.open("GET", "https://coronavirus-19-api.herokuapp.com/countries");
     httpreqForCountries.send();
     httpreqForCountries.onreadystatechange = function () {
         if (httpreqForCountries.readyState == 4 && httpreqForCountries.status == 200) {
@@ -101,7 +101,7 @@ var egyptData = [];
 var httpreqForEgypt = new XMLHttpRequest();
 getdataEgypt();
 function getdataEgypt() {
-    httpreqForEgypt.open("GET", "https://corona.lmao.ninja/countries/egypt");
+    httpreqForEgypt.open("GET", "https://coronavirus-19-api.herokuapp.com/countries/egypt");
     httpreqForEgypt.send();
     httpreqForEgypt.onreadystatechange = function () {
         if (httpreqForEgypt.readyState == 4 && httpreqForEgypt.status == 200) {
