@@ -15,7 +15,8 @@ body
 .total
 {
     background-color: #ABBEBA;
-    
+     font-family: 'Tajawal', sans-serif;
+    font-weight: 900;
 }
 .total p
 {
