@@ -16,6 +16,11 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
+
+function formatNumber(num) {
+  return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
+}
+
 var allData = [];
 var httpreq = new XMLHttpRequest();
 getdata();
@@ -23,15 +28,15 @@ function display() {
     var tempContainer = `
     <div class="col-md-4 p-5 total">
           <h2>عدد الحالات</h2>
-          <p>`+ allData.cases + `</p>
+          <p>`+ formatNumber(allData.cases) + `</p>
         </div>
         <div class="col-md-4 p-5 total">
           <h2>عدد الوفيات</h2>
-          <p>`+ allData.deaths + `</p>
+          <p>`+ formatNumber(allData.deaths) + `</p>
         </div>
         <div class="col-md-4 p-5 total">
           <h2>عدد المعافين</h2>
-          <p>`+ allData.recovered + `</p>
+          <p>`+ formatNumber(allData.recovered) + `</p>
         </div>`;
     document.getElementById("totalSec").innerHTML = tempContainer;
 }
