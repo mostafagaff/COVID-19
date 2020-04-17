@@ -77,22 +77,22 @@ function displayCountries() {
         <h4 class="m-3">`+ allCountries[index].country + `</h4>
         <div class="row text-center">
           <div class="col-md-6">
-            <p class="p-0 m-0">`+ allCountries[index].cases + ` : مجموع الحالات</p>
+            <p class="p-0 m-0">`+ formatNumber(allCountries[index].cases) + ` : مجموع الحالات</p>
           </div>
           <div class="col-md-6">
-            <p class="p-0 m-0">`+ allCountries[index].todayCases + ` : حالات اليوم</p>
+            <p class="p-0 m-0">`+ formatNumber(allCountries[index].todayCases) + ` : حالات اليوم</p>
           </div>
           <div class="col-md-6">
-            <p class="p-0 m-0">`+ allCountries[index].deaths + ` : مجموع الوفيات</p>
+            <p class="p-0 m-0">`+ formatNumber(allCountries[index].deaths) + ` : مجموع الوفيات</p>
           </div>
           <div class="col-md-6">
-            <p class="p-0 m-0">`+ allCountries[index].todayDeaths + ` : وفيات اليوم</p>
+            <p class="p-0 m-0">`+ formatNumber(allCountries[index].todayDeaths) + ` : وفيات اليوم</p>
           </div>
           <div class="col-md-6">
             <p class="p-0 m-0">`+ allCountries[index].recovered + ` : مجموع المعافين</p>
           </div>
           <div class="col-md-6">
-            <p class="p-0 m-0">`+ allCountries[index].critical + ` : حالات خطره</p>
+            <p class="p-0 m-0">`+ formatNumber(allCountries[index].critical) + ` : حالات خطره</p>
           </div>
         </div>
         `
